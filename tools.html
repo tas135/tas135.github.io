@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>COMP6219 Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-blue-grey" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Home</a>
+    <a href="telegram.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Software Application</a>
+    <a href="spotify.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Web Application</a>
+    <a href="assistivetech.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Assistive Technologies</a>
+    <a href="tools.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white w3-hover-white">Evaluation Tools Used</a>
+    <a href="websiteaccessibility.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Website Evaluation</a>
+
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="telegram.html" class="w3-bar-item w3-button w3-padding-large">Software Application</a>
+    <a href="spotify.html" class="w3-bar-item w3-button w3-padding-large">Web Application</a>
+    <a href="assistivetech.html" class="w3-bar-item w3-button w3-padding-large">Assistive Technologies</a>
+    <a href="tools.html" class="w3-bar-item w3-button w3-padding-large">Evaluation Tools</a>
+    <a href="websiteaccessibility.html" class="w3-bar-item w3-button w3-padding-large">Website Evaluation</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-blue-grey w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-xxxlarge">Examples of Evaluation Tools Used</h1>
+  <button onclick="location.href='#wave'" class="w3-button w3-black w3-padding-large w3-large w3-margin-top w3-margin-right w3-margin-left">Wave</button>
+  <button onclick="location.href='#axe'" class="w3-button w3-black w3-padding-large w3-large w3-margin-top w3-margin-right w3-margin-left">Axe</button>
+  <button onclick="location.href='#w3cValidation'" class="w3-button w3-black w3-padding-large w3-large w3-margin-top w3-margin-right w3-margin-left">W3C Validation Services</button>
+  <button onclick="location.href='#web2access'" class="w3-button w3-black w3-padding-large w3-large w3-margin-top w3-margin-right w3-margin-left">Web2Access</button>
+  <button onclick="location.href='#blisk'" class="w3-button w3-black w3-padding-large w3-large w3-margin-top w3-margin-right w3-margin-left">Blisk</button>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container" id="wave">
+  <div class="w3-content">
+      <h1>Wave</h1>
+      <h5 class="w3-padding-16">Wave, developed by WebAIM and launched in 2001, is a ‘web accessibility evaluation tool’, designed to help automatically identify accessibility and WCAG errors and facilitate manual user evaluation. The Chrome extension was the tool used for the purposes of this report.
+A web page can be tested with either all stylings visible, or without stylings and the tool displays both errors and features of a webpage, including structural elements (headings) and ARIA attributes.
+</h5>
+<div class="w3-right">
+  <a href="#" class="back_to_top"> Back to Top</a>
+</div>
+
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container" id="axe">
+  <div class="w3-content">
+      <h1>Axe</h1>
+      <h5 class="w3-padding-32">Axe is another evaluation tool, similar to WAVE, that can be installed as a Chrome extension and runs over eighty accessibility tests. One of the main features of axe is the lack of false positives; it only performs tests that will definitely pass or fail. It categorises issues into ‘violations’, ‘needs review’, ‘rejected’ and ‘best practices’, rated as either critical, serious or moderate. Axe provides more detail than WAVE, for example it provides a possible solution for each error, so the two tools were used together to gain a better understanding of the problems on a page, and to cross-check the results. </h5>
+      <div class="w3-right">
+        <a href="#" class="back_to_top"> Back to Top</a>
+      </div>
+
+  </div>
+</div>
+
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container" id="w3cValidation">
+  <div class="w3-content">
+    <!-- <div class="w3-twothird"> -->
+      <h1>W3C Validation Services</h1>
+      <h5 class="w3-padding-32">W3C’s Markup Validation Service [11] is a validator developed to allow users to check that HTML and XHTML documents are correctly formed. This includes, for example, having a close tag for each open tag. The CSS Validation Service [12] checks the validity of Cascading Style Sheets and (X)HTML documents with style sheets. It highlights both errors and potential usability risks.</h5>
+      <div class="w3-right">
+        <a href="#" class="back_to_top"> Back to Top</a>
+      </div>
+
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container" id="web2access">
+  <div class="w3-content">
+      <h1>Web2Access</h1>
+      <h5 class="w3-padding-32">Web2Access, a resource designed to help evaluate web applications for their accessibility based on WCAG 2.0, was used to help assess the accessibility of the web application, and to understand the disabilities impacted by a particular accessibility feature.
+        The site provided clear guidance in terms of testing methods and testing criteria and helped form an initial assessment of the accessibility of the web app. </h5>
+
+        <div class="w3-right">
+          <a href="#" class="back_to_top"> Back to Top</a>
+        </div>
+
+  </div>
+</div>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container" id="blisk">
+  <div class="w3-content">
+    <!-- <div class="w3-twothird"> -->
+      <h1>Blisk</h1>
+      <h5 class="w3-padding-32">Blisk, “a browser for web developers”, is a web browser that allows developers to test sites on multiple devices, both mobile and desktop. It was used to test the compatibility of the web application across multiple devices, browsers and operating systems.</h5>
+      <div class="w3-right">
+        <a href="#" class="back_to_top"> Back to Top</a>
+      </div>
+
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-black w3-padding-16 w3-center w3-opacity">
+ <p>Created by Tasneem Bawendi</p>
+ <p>Template adapted from <a href="https://www.w3schools.com/w3css/w3css_templates.asp" target="_blank">W3C</a> ®</p>
+ <p><a href="accessibilityStatement.html" target="_blank">Accessibility Statement</a></p>
+ <p><a href="https://www.termsfeed.com/terms-conditions/81574f91f42cd8895207a1f52e9bad9a" target="_blank">Terms and Conditions</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>

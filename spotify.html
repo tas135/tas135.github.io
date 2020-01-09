@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>COMP6219 Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-blue-grey" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Home</a>
+    <a href="telegram.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white ">Software Application</a>
+    <a href="spotify.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white w3-hover-white">Web Application</a>
+    <a href="assistivetech.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Assistive Technologies</a>
+    <a href="tools.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Evaluation Tools Used</a>
+    <a href="websiteaccessibility.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Website Evaluation</a>
+
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="telegram.html" class="w3-bar-item w3-button w3-padding-large">Software Application</a>
+    <a href="spotify.html" class="w3-bar-item w3-button w3-padding-large">Web Application</a>
+    <a href="assistivetech.html" class="w3-bar-item w3-button w3-padding-large">Assistive Technologies</a>
+    <a href="tools.html" class="w3-bar-item w3-button w3-padding-large">Evaluation Tools</a>
+    <a href="websiteaccessibility.html" class="w3-bar-item w3-button w3-padding-large">Website Evaluation</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-blue-grey w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-xxxlarge">Spotify Web Player</h1>
+  <button onclick="location.href='#spotifyOverview'" class="w3-button w3-black w3-padding-large w3-large w3-margin-top w3-margin-right w3-margin-left">Overview</button>
+  <button onclick="location.href='#spotifyAccessibility'" class="w3-button w3-black w3-padding-large w3-large w3-margin-top w3-margin-right w3-margin-left">Accessibility</button>
+  <button onclick="location.href='#spotifyStandards'" class="w3-button w3-black w3-padding-large w3-large w3-margin-top w3-margin-right w3-margin-left">Designing to Standards</button>
+  <button onclick="location.href='#spotifyUsability'" class="w3-button w3-black w3-padding-large w3-large w3-margin-top w3-margin-right w3-margin-left">Usability</button>
+  <button onclick="location.href='#spotifyCompatibility'" class="w3-button w3-black w3-padding-large w3-large w3-margin-top w3-margin-right w3-margin-left">Compatibility</button>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container" id="spotifyOverview">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Overview</h1>
+      <h5 class="w3-padding-16">Spotify is an audio streaming platform that launched in 2008 and currently has over 248 million monthly active users.
+        With access to more than 50 million tracks, users are able to listen to music and podcasts on the go and on a wide range of devices;
+        Spotify runs on multiple platforms including Android, iOS, Smart TVs, MacOS, Linux and Windows desktops.
+        The Spotify web player was evaluated for its accessibility and usability. </h5>
+      </h5>
+    </div>
+    <div class="w3-third w3-center">
+      <i style="font-size:150px;" class="fa fa-spotify fa-5x  w3-padding-64 w3-margin-top w3-text-green" title="Spotify Logo" ></i>
+    </div>
+    <div class="w3-right">
+      <a href="#" class="back_to_top"> Back to Top</a>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container" id="spotifyAccessibility">
+  <div class="w3-content">
+
+
+      <h1>Accessibility</h1>
+      <h5 class="w3-padding-32">
+Overall, Spotify uses appropriate headings and font styles, and the main parts of the site are landmarked for easier screen reader navigation. There is also a logical tabbing order on the site, however, it is often unclear which item is in focus.  The web player occasionally suffers from bad colour contrast and removing the stylings on the site heavily affects the functionality. Furthermore, several labels are missing, which causes issues when using a screen reader, and there is no way to adjust sound settings through an equaliser, for example, or a mono audio option for users with hearing impairments.
+      </h5>
+      <div class="w3-right">
+        <a href="#" class="back_to_top"> Back to Top</a>
+      </div>
+  </div>
+  </div>
+
+<div class="w3-row-padding w3-padding-64 w3-container" id="spotifyStandards">
+  <div class="w3-content">
+      <h1>Designing to Standards</h1>
+      <h5 class="w3-padding-32"> Spotify received an average rating of 75% when reviewed using Web2Access, and a score of 75 out of 100 when tested using Google’s Lighthouse. Wave identified 28 errors and 125 alerts, whilst aXe identified 7 unique violations. Therefore, it is in violation of WCAG and ATAG.</h5>
+  </div>
+</div>
+
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container" id="spotifyUsability">
+  <div class="w3-content">
+
+
+      <h1>Usability</h1>
+      <h5 class="w3-padding-32">Spotify scored highly on the System usability scale and achieved an above average score of 77.5. The interface is clear and intuitive and makes use of affordances. Any errors made by users can be undone and all parts of the web player can be reached easily. However, keyboard navigation can become tedious due to the number of menu items, and users are not notified when a duplicate song is added to a playlist.</h5>
+      <div class="w3-right">
+        <a href="#" class="back_to_top"> Back to Top</a>
+      </div>
+  </div>
+</div>
+
+<div class="w3-row-padding w3-padding-64 w3-container" id="spotifyCompatibility">
+  <div class="w3-content">
+      <h1>Browser and OS Compatibility</h1>
+      <h5 class="w3-padding-32">
+        The Spotify web player is compatible with Chrome, Firefox, Edge and Opera web browsers on all operating systems, however, it is incompatible with Internet Explorer.  It is also unsupported by Safari; instead, users are prompted to install the desktop application.
+      </h5>
+      <div class="w3-right">
+        <a href="#" class="back_to_top"> Back to Top</a>
+      </div>
+
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-black w3-padding-16 w3-center w3-opacity">
+ <p>Created by Tasneem Bawendi</p>
+ <p>Template adapted from <a href="https://www.w3schools.com/w3css/w3css_templates.asp" target="_blank">W3C</a> ®</p>
+ <p><a href="accessibilityStatement.html" target="_blank">Accessibility Statement</a></p>
+ <p><a href="https://www.termsfeed.com/terms-conditions/81574f91f42cd8895207a1f52e9bad9a" target="_blank">Terms and Conditions</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>COMP6219 Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-blue-grey" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Home</a>
+    <a href="telegram.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Software Application</a>
+    <a href="spotify.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Web Application</a>
+    <a href="assistivetech.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white w3-hover-white">Assistive Technologies</a>
+    <a href="tools.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Evaluation Tools Used</a>
+    <a href="websiteaccessibility.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Website Evaluation</a>
+
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="telegram.html" class="w3-bar-item w3-button w3-padding-large">Software Application</a>
+    <a href="spotify.html" class="w3-bar-item w3-button w3-padding-large">Web Application</a>
+    <a href="assistivetech.html" class="w3-bar-item w3-button w3-padding-large">Assistive Technologies</a>
+    <a href="tools.html" class="w3-bar-item w3-button w3-padding-large">Evaluation Tools</a>
+    <a href="websiteaccessibility.html" class="w3-bar-item w3-button w3-padding-large">Website Evaluation</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-blue-grey w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-xxxlarge">Assistive Technology Description and Analysis</h1>
+  <button onclick="location.href='#nvda'" class="w3-button w3-black w3-padding-large w3-large w3-margin-top w3-margin-right w3-margin-left">NVDA</button>
+  <button onclick="location.href='#atbar'" class="w3-button w3-black w3-padding-large w3-large w3-margin-top w3-margin-right w3-margin-left">ATbar</button>
+  <button onclick="location.href='#ease'" class="w3-button w3-black w3-padding-large w3-large w3-margin-top w3-margin-right w3-margin-left">Windows Ease of Access</button>
+  <button onclick="location.href='#speechrecognition'" class="w3-button w3-black w3-padding-large w3-large w3-margin-top w3-margin-right w3-margin-left">Windows Speech Recognition</button>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container" id="nvda">
+  <div class="w3-content">
+    <!-- <div class="w3-twothird"> -->
+      <h1>NVDA</h1>
+      <h5 class="w3-padding-16">NVDA is a Windows compatible open-source screen reader which enables users with visual impairments to use applications, by both reading out the content on a screen using a synthesised voice, and providing contextual cues about interactive elements.
+In order to work, screen readers require that all necessary information is provided so that the content can be read in a meaningful way and in a logical order. For example, images need alternative text, and buttons should be labelled appropriately.
+</h5>
+<div class="w3-right">
+  <a href="#" class="back_to_top"> Back to Top</a>
+</div>
+
+
+
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container" id="atbar">
+  <div class="w3-content">
+      <h1>ATbar</h1>
+      <h5 class="w3-padding-32">ATbar is an open-source, cross-browser toolbar that combines the functionality of various tools into one. Examples of functions include: text magnification, text-to-speech, and colour overlays.
+        ATbar can be used by a wide range of users, for example those with learning disabilities who may struggle to read cluttered webpages. An alternative Windows desktop version functions as a text-to-speech program, whereby text is copied and read aloud. </h5>
+        <div class="w3-right">
+          <a href="#" class="back_to_top"> Back to Top</a>
+        </div>
+  </div>
+</div>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container" id="ease">
+  <div class="w3-content">
+      <h1>Windows Ease of Access</h1>
+      <h5 class="w3-padding-32">Ease of Access options are built-in to the Windows Operating System and aim to make using a computer more accessible. They require no additional downloads and are grouped into three categories; vision, hearing and interaction. Examples of features include a native screen reader (Narrator), contrast settings and dictation.
+These settings are easy to control and convenient since they can all be changed from a single place without the need for additional software or technologies (in most cases). This makes it easier when moving from one desktop to another, since it saves time on installation and set up compared to downloading individual tools
+</h5>
+<div class="w3-right">
+  <a href="#" class="back_to_top"> Back to Top</a>
+</div>
+
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container" id="speechrecognition">
+  <div class="w3-content">
+      <h1>Windows Speech Recognition</h1>
+      <h5 class="w3-padding-32">Windows Speech Recognition is a built-in speech-to-text system native to the Windows OS. It allows people to use their PCs without the need for a keyboard or mouse.
+        The software was used to test Telegram but it was found to be only partly compatible. </h5>
+        <div class="w3-right">
+          <a href="#" class="back_to_top"> Back to Top</a>
+        </div>
+
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-black w3-padding-16 w3-center w3-opacity">
+ <p>Created by Tasneem Bawendi</p>
+ <p>Template adapted from <a href="https://www.w3schools.com/w3css/w3css_templates.asp" target="_blank">W3C</a> ®</p>
+ <p><a href="accessibilityStatement.html" target="_blank">Accessibility Statement</a></p>
+ <p><a href="https://www.termsfeed.com/terms-conditions/81574f91f42cd8895207a1f52e9bad9a" target="_blank">Terms and Conditions</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
